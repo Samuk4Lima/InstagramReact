@@ -1,0 +1,51 @@
+.header {
+  background-color: var(--background);
+  border-bottom: 1px solid var(--border);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.75rem;
+  max-width: 957px;
+
+  margin: 0 auto;
+  width: 90%;
+}
+
+.container .logoImage {
+  width: 100px;
+  cursor: pointer;
+}
+
+.fakeInput {
+  background-color: var(--backgroundMain);
+  border-radius: 7px;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  padding: 4px 10px;
+}
+
+.fakeInput input {
+  font-size: 14px;
+  padding: 0px 7px;
+}
+
+.icones img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.icones {
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
+  align-items: center;
+}

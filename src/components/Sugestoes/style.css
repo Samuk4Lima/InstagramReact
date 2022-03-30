@@ -1,0 +1,113 @@
+.suggestionContainer {
+  margin-top: 18px;
+}
+
+.headerSuges {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.headerSuges img {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.userDataSuges {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.userDataSuges .data span {
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.userDataSuges .data p {
+  font-size: 13px;
+  color: var(--secondary);
+}
+
+.headerSuges .mudar {
+  font-weight: 550;
+  color: var(--quartary);
+  cursor: pointer;
+}
+
+.headerPrincipalSuges {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 20px 0 10px 0;
+}
+
+.headerPrincipalSuges p {
+  font-size: 15px;
+  color: var(--secondary);
+
+  font-weight: 550;
+}
+
+.headerPrincipalSuges span {
+  font-size: 13px;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.userSuges {
+  margin-top: 5px;
+}
+
+.suggestionDatas img {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.suggestionDatas {
+  margin: 15px 0 0 5px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.suggestionDatas .dataLog {
+  flex: 1;
+}
+
+.suggestionDatas span {
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.suggestionDatas p {
+  font-size: 13px;
+  color: var(--secondary);
+  margin-top: 3px;
+}
+
+.suggestionDatas .seguir {
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--quartary);
+  font-weight: 550;
+}
+
+.suggestionFooter {
+  margin-top: 25px;
+  flex: 1;
+}
+
+.suggestionFooter p {
+  font-size: 12px;
+  color: var(--tertiary);
+  margin-bottom: 15px;
+  cursor: pointer;
+}
